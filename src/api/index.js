@@ -2,12 +2,18 @@ import axios from "axios";
 
 const url = "https://covid19.mathdro.id/api";
 
-export const fetchData = async () => {
+export const fetchData = async (country) => {
+    let dynamicUrl = url;
+
+    if (country) {
+        dynamicUrl = `${url}/countries/${country}`;
+    }
+
     try {
         //destructure data
         const {
             data: { confirmed, recovered, deaths, lastUpdate },
-        } = await axios.get(url);
+        } = await axios.get(dynamicUrl);
 
         const modifiedData = {
             confirmed,
@@ -35,5 +41,17 @@ export const fetchDailyData = async () => {
         return modifiedData;
     } catch (error) {
         console.log("fetch daily data error", error);
+    }
+};
+
+export const fetchCountries = async () => {
+    try {
+        const {
+            data: { countries },
+        } = await axios.get(`${url}/countries`);
+
+        return countries.map((country) => country.name);
+    } catch (error) {
+        console.log("fetch countries error", error);
     }
 };
