@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Corona-Dashboard/static/css/main.8247181c.chunk.css",
+    "main.js": "/Corona-Dashboard/static/js/main.cf3a02db.chunk.js",
+    "main.js.map": "/Corona-Dashboard/static/js/main.cf3a02db.chunk.js.map",
+    "runtime-main.js": "/Corona-Dashboard/static/js/runtime-main.ec0a1e77.js",
+    "runtime-main.js.map": "/Corona-Dashboard/static/js/runtime-main.ec0a1e77.js.map",
+    "static/js/2.a4d72f3d.chunk.js": "/Corona-Dashboard/static/js/2.a4d72f3d.chunk.js",
+    "static/js/2.a4d72f3d.chunk.js.map": "/Corona-Dashboard/static/js/2.a4d72f3d.chunk.js.map",
+    "index.html": "/Corona-Dashboard/index.html",
+    "precache-manifest.65ce5c204d7fc0e4e7eb448fb74f3b26.js": "/Corona-Dashboard/precache-manifest.65ce5c204d7fc0e4e7eb448fb74f3b26.js",
+    "service-worker.js": "/Corona-Dashboard/service-worker.js",
+    "static/css/main.8247181c.chunk.css.map": "/Corona-Dashboard/static/css/main.8247181c.chunk.css.map",
+    "static/js/2.a4d72f3d.chunk.js.LICENSE.txt": "/Corona-Dashboard/static/js/2.a4d72f3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec0a1e77.js",
+    "static/js/2.a4d72f3d.chunk.js",
+    "static/css/main.8247181c.chunk.css",
+    "static/js/main.cf3a02db.chunk.js"
+  ]
+}
